@@ -1,9 +1,13 @@
 import React from 'react';
-import AppRouter from './routers/AppRouter';
+import SubHeader from './components/SubHeader';
+import Header from './components/Header';
 
 function App() {
   return (
-    <AppRouter />
+    <div className="App" >
+      <SubHeader />
+      <Header />
+    </div>
   );
 }
 

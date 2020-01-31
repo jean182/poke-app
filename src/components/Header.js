@@ -1,6 +1,5 @@
 import React from "react";
 import { ReactSVG } from "react-svg";
-import NavLink from "./NavLink";
 import PokeBall from "../assets/pokeball.svg";
 import GreatBall from "../assets/greatball.svg";
 import UltraBall from "../assets/ultraball.svg";
@@ -38,25 +37,25 @@ function Header() {
         </button>
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div className="text-sm text-cerulean-blue lg:flex-grow">
-          <NavLink
+        <div className="text-sm lg:flex-grow">
+          <a
+            href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-500 mr-4"
-            to="/"
           >
-            Home
-          </NavLink>
-          <NavLink
+            Docs
+          </a>
+          <a
+            href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-500 mr-4"
-            to="/login"
           >
-            Login
-          </NavLink>
-          <NavLink
+            Examples
+          </a>
+          <a
+            href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-500"
-            to="/"
           >
             Blog
-          </NavLink>
+          </a>
         </div>
       </div>
     </nav>
