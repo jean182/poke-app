@@ -3,26 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/core": "^10.0.27",
-    "@emotion/styled": "^10.0.27",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "autoprefixer": "^9.7.4",
-    "gatsby-design-tokens": "^1.0.10",
-    "node-sass": "^4.13.1",
-    "postcss-cli": "^7.1.0",
-    "postcss-import": "^12.0.1",
+    "@theme-ui/presets": "^0.3.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
-    "react-svg": "^11.0.8",
-    "tailwindcss": "^1.1.4"
+    "theme-ui": "^0.3.1"
   },
   "scripts": {
-    "build:style": "tailwind build src/styles/index.scss -o src/styles/tailwind.scss",
-    "start": "npm run build:style && react-scripts start",
-    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -41,8 +32,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "prettier": "1.19.1"
   }
 }

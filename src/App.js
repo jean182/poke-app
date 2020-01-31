@@ -1,13 +1,12 @@
-import React from 'react';
-import SubHeader from './components/SubHeader';
-import Header from './components/Header';
+import React from 'react'
+import { ThemeProvider } from 'theme-ui'
+import theme from './theme'
 
 function App() {
   return (
-    <div className="App" >
-      <SubHeader />
-      <Header />
-    </div>
+    <ThemeProvider theme={theme}>
+      <h1>Theme UI sample</h1>
+    </ThemeProvider>
   );
 }
 
