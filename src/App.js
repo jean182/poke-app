@@ -1,11 +1,12 @@
-import React from 'react'
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import { ThemeProvider } from 'theme-ui'
 import theme from './theme'
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <h1>Theme UI sample</h1>
+      <a href="/" sx={{color: 'primary'}}>Theme UI sample</a>
     </ThemeProvider>
   );
 }
