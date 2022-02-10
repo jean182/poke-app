@@ -11,7 +11,7 @@
     "@testing-library/user-event": "^7.1.2",
     "autoprefixer": "^9.7.4",
     "gatsby-design-tokens": "^1.0.10",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.1",
     "react": "^16.12.0",
